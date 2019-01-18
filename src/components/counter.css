@@ -1,0 +1,39 @@
+.counter {
+  font-size: 92px;
+  font-weight: bold;
+  font-family: "Arial";
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.counter span {
+  margin-top: 100px;
+}
+
+.counter .controller {
+  margin-top: 20px;
+}
+
+.counter .controller button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 100%;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.counter .controller button:hover {
+  transform: scale(1.15);
+}
